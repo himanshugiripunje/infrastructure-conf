@@ -1,13 +1,14 @@
 # infrastructure-conf
-tfstate store in a backend
-tf fmt --recrsive
-tf import 
+
+- tfstate store in a backend
+- tf fmt --recrsive
+- tf import 
 
 
-import {
-  id = "i-09b732fc2fd337b3c"
-  to = aws_instance.new
-}
+- import {
+- id = "i-09b732fc2fd337b3c"
+-  to = aws_instance.new
+- }
 
 
 
